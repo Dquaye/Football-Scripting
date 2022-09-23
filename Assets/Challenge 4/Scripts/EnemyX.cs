@@ -17,7 +17,8 @@ public class EnemyX : MonoBehaviour
         
         enemyRb = GetComponent<Rigidbody>();
         playerGoal = GameObject.Find("Player Goal");
-        
+        speed = 2.0f;
+
 
     }
 
